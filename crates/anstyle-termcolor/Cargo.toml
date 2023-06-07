@@ -2,9 +2,9 @@
 name = "anstyle-termcolor"
 version = "0.3.0"
 description = "Adapt between termcolor and anstyle"
-repository = "https://github.com/rust-cli/anstyle.git"
-homepage = "https://github.com/rust-cli/anstyle"
-categories = ["command-line-interface"]
+repository.workspace = true
+homepage.workspace = true
+categories.workspace = true
 keywords = ["ansi", "terminal", "color", "termcolor"]
 license.workspace = true
 edition.workspace = true

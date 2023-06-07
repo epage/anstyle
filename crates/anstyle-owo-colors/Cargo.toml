@@ -2,9 +2,9 @@
 name = "anstyle-owo-colors"
 version = "0.3.0"
 description = "Adapt between owo-colors and anstyle"
-repository = "https://github.com/rust-cli/anstyle.git"
-homepage = "https://github.com/rust-cli/anstyle"
-categories = ["command-line-interface"]
+repository.workspace = true
+homepage.workspace = true
+categories.workspace = true
 keywords = ["ansi", "terminal", "color", "owo-colors"]
 license.workspace = true
 edition.workspace = true
