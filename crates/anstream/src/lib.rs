@@ -16,6 +16,15 @@
 //! - [owo-colors](https://docs.rs/owo-colors) for feature-rich runtime styling
 //! - [color-print](https://docs.rs/color-print) for feature-rich compile-time styling
 //!
+//! Auto-detection includes:
+//! - [`IsTerminal`](https://doc.rust-lang.org/std/io/trait.IsTerminal.html)
+//! - [ENABLE_VIRTUAL_TERMINAL_PROCESSING](https://learn.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences#output-sequences) *(windows)*
+//! - [CLICOLOR](https://bixense.com/clicolors/)
+//! - [CLICOLOR_FORCE](https://bixense.com/clicolors/)
+//! - [NO_COLOR](https://no-color.org/)
+//! - `TERM`
+//! - `CI`
+//!
 //! # Example
 //!
 //! ```
